@@ -15,4 +15,4 @@ Link to the privacy policy of third-party service providers used by the app
 
 **Contact Us**
 
-If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at [zFontApp@gmail.com](mailto:zfontapp@gmail.com).
+If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at [dev@zfont.app](mailto:dev@zfont.app).
