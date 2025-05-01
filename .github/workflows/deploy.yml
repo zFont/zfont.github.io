@@ -12,6 +12,12 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   # Build job
   build:
@@ -27,7 +33,6 @@ jobs:
         uses: oven-sh/setup-bun@v2
         with:
           bun-version: latest
-          cache: true # Enable caching for faster installations
       
       - name: Install dependencies
         run: bun install --frozen-lockfile # Use frozen lockfile for reproducible builds
@@ -88,7 +93,7 @@ jobs:
           path: dist
       - name: Setup Pages
         uses: actions/configure-pages@v4
-        
+
       - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
