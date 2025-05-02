@@ -7,6 +7,13 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: 'icons/favicon.ico' }],
     [
+      'meta',
+      {
+        name: 'theme-color',
+        content: '#02C854'
+      }
+    ],
+    [
       'link',
       {
         ref: 'manifest',
