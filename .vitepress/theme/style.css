@@ -49,13 +49,20 @@
   --vp-c-default-3: var(--vp-c-gray-3);
   --vp-c-default-soft: var(--vp-c-gray-soft);
 
-  --vp-c-brand-1: #02C854;  /* Primary brand color */
---vp-c-brand-2: #01B54C;  /* Slightly darker for secondary elements */
---vp-c-brand-3: #01A344;  /* Darker shade for active elements */
---vp-c-brand-soft: #C5F5DA;  /* Lightest shade for background elements */
---vp-c-brand-hover: #01A344;  /* Hover state */
---vp-c-brand-focus: #018F3B;  /* Focus state for accessibility */
---vp-c-brand-muted: #7DE5AD;  /* Muted shade for less emphasized items */
+  --vp-c-brand-1: #00A052;
+  /* Primary brand color */
+  --vp-c-brand-2: #009047;
+  /* Slightly darker for secondary elements */
+  --vp-c-brand-3: #00803D;
+  /* Darker shade for active elements */
+  --vp-c-brand-soft: #B3E6D1;
+  /* Lightest shade for background elements */
+  --vp-c-brand-hover: #00803D;
+  /* Hover state */
+  --vp-c-brand-focus: #007033;
+  /* Focus state for accessibility */
+  --vp-c-brand-muted: #66D19F;
+  /* Muted shade for less emphasized items */
 
   --vp-c-tip-1: var(--vp-c-brand-1);
   --vp-c-tip-2: var(--vp-c-brand-2);
@@ -95,17 +102,13 @@
 
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(
-    120deg,
-    #FFBD1F,
-    #00C854 60%
-  );
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg,
+      #FFBD1F,
+      #00A052 60%);
 
-  --vp-home-hero-image-background-image: linear-gradient(
-    -45deg,
-    #00C854 50%,
-    #01A344 50%
-  );
+  --vp-home-hero-image-background-image: linear-gradient(-45deg,
+      #00A052 50%,
+      #00803D 50%);
   --vp-home-hero-image-filter: blur(44px);
 }
 
@@ -139,4 +142,3 @@
 .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
-

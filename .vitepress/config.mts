@@ -10,7 +10,7 @@ export default defineConfig({
       'meta',
       {
         name: 'theme-color',
-        content: '#02C854'
+        content: '#00A052'
       }
     ],
     [
