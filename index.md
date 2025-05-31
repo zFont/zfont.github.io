@@ -41,8 +41,9 @@ features:
 
 You can download zFont 3 from the Google Play Store.
 
-[![Downloads](https://img.shields.io/badge/Downloads-143,919,237-02C854?style=flat&logo=googleplay)](https://play.google.com/store/apps/details?id=com.htetznaing.zfont2)
-
+[![Get it On Play Store](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FzFont%2Fzfont.github.io%2Frefs%2Fheads%2Fmain%2Fplay-report.json&query=total_downloads_string&style=flat&logo=googleplay&label=Downloads&color=00A052&cacheSeconds=1800)](https://play.google.com/store/apps/details?id=com.htetznaing.zfont2)
 
 > [!NOTE]
 > If you don't have Google Play Store, you can use [Aurora Store](https://auroraoss.com/) to install zFont 3.
+
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/KhunHtetzNaing/zFont/total?style=flat&logo=github&label=Downloads&color=00A052)
