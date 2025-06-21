@@ -10,7 +10,7 @@ import base64
 
 def get_credentials_from_base64(base64_string):
     """Create credentials from Base64 string (for GitHub secrets)."""
-    json_string = base64.b16decode(base64_string).decode()
+    json_string = base64.b64decode(base64_string).decode()
     import json
     credentials_dict = json.loads(json_string)
     return service_account.Credentials.from_service_account_info(credentials_dict)
