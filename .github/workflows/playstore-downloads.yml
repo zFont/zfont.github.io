@@ -1,0 +1,50 @@
+name: PlayStore Downloads Counter
+
+on:
+  schedule:
+    # Run daily at 9:00 AM UTC
+    - cron: '0 9 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  count-downloads:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Install dependencies
+      run: |
+        pip install google-cloud-storage google-auth
+    
+    - name: Run download counter
+      env:
+        BUCKET_NAME: ${{ secrets.BUCKET_NAME }}
+        SERVICE_ACCOUNT_JSON: ${{ secrets.SERVICE_ACCOUNT_JSON }}
+        APP_PACKAGE_NAME: 'com.htetznaing.zfont2'
+        START_DATE: '2020-12'
+        OUTPUT_PATH: 'public/play-report.json'
+      run: |
+        python scripts/play_counter.py
+    
+    - name: Upload report as artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: download-report-${{ github.run_number }}
+        path: public/play-report.json
+    
+    - name: Commit and push report (optional)
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add public/play-report.json
+        git diff --staged --quiet || git commit -m "Update download report - $(date)"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
