@@ -5,10 +5,12 @@ import sys
 from datetime import datetime
 from google.cloud import storage
 from google.oauth2 import service_account
+import base64
 
 
-def get_credentials_from_json_string(json_string):
-    """Create credentials from JSON string (for GitHub secrets)."""
+def get_credentials_from_base64(base64_string):
+    """Create credentials from Base64 string (for GitHub secrets)."""
+    json_string = base64.b16decode(base64_string).decode()
     import json
     credentials_dict = json.loads(json_string)
     return service_account.Credentials.from_service_account_info(credentials_dict)
@@ -67,7 +69,7 @@ def get_monthly_downloads(client, bucket_name, app_package_name, month, year):
 def main():
     # Get environment variables
     bucket_name = os.getenv('BUCKET_NAME')
-    service_account_json = os.getenv('SERVICE_ACCOUNT_JSON')
+    service_account = os.getenv('SERVICE_ACCOUNT')
     app_package_name = os.getenv('APP_PACKAGE_NAME')
     start_date = os.getenv('START_DATE')
     output_path = os.getenv('OUTPUT_PATH', 'play-report.json')
@@ -75,7 +77,7 @@ def main():
     # Validate required environment variables
     required_vars = {
         'BUCKET_NAME': bucket_name,
-        'SERVICE_ACCOUNT_JSON': service_account_json,
+        'SERVICE_ACCOUNT': service_account,
         'APP_PACKAGE_NAME': app_package_name,
         'START_DATE': start_date
     }
@@ -87,7 +89,7 @@ def main():
 
     try:
         # Initialize Google Cloud Storage client
-        credentials = get_credentials_from_json_string(service_account_json)
+        credentials = get_credentials_from_base64(service_account)
         client = storage.Client(credentials=credentials)
 
         # Generate month-year pairs
