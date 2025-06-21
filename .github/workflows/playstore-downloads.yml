@@ -26,7 +26,7 @@ jobs:
     - name: Run download counter
       env:
         BUCKET_NAME: ${{ secrets.BUCKET_NAME }}
-        SERVICE_ACCOUNT: ${{ secrets.SERVICE_ACCOUNT_JSON }}
+        SERVICE_ACCOUNT: ${{ secrets.SERVICE_ACCOUNT }}
         APP_PACKAGE_NAME: 'com.htetznaing.zfont2'
         START_DATE: '2020-12'
         OUTPUT_PATH: 'public/play-report.json'
