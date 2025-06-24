@@ -76,6 +76,7 @@ export default defineConfig({
           {text: 'zFile', link: '/zfile'},
           { text: 'Privacy Policy', link: '/privacy' },
           { text: 'Terms and Conditions', link: '/terms' },
+          {text: 'Acknowledgements', link: '/acknowledgements'},
         ]
       }
     ],
@@ -93,7 +94,8 @@ export default defineConfig({
         items: [
           {text: 'zFile', link: '/zfile'},
           { text: 'Privacy Policy', link: '/privacy' },
-          { text: 'Terms and Conditions', link: '/terms' }
+          { text: 'Terms and Conditions', link: '/terms' },
+          {text: 'Acknowledgements', link: '/acknowledgements'},
         ]
       }
     ],
