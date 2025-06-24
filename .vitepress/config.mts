@@ -70,6 +70,7 @@ export default defineConfig({
     logo: '/icons/icon-192.png',
     nav: [
       { text: 'Home', link: '/' },
+      {text: "Help", link: "/help"},
       {
         text: 'About',
         items: [
@@ -81,6 +82,13 @@ export default defineConfig({
     ],
 
     sidebar: [
+      {
+        text: "Help", 
+        items: [
+          {text: 'FAQ', link: '/help'},
+          {text: 'Contact & Support', link: '/contact'},
+        ]
+      },
       {
         text: 'About',
         items: [
