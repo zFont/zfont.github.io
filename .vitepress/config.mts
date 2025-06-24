@@ -70,7 +70,6 @@ export default defineConfig({
     logo: '/icons/icon-192.png',
     nav: [
       { text: 'Home', link: '/' },
-      {text: "Help", link: "/help"},
       {
         text: 'About',
         items: [

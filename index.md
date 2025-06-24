@@ -14,8 +14,8 @@ hero:
       text: Download
       link: /#downloads
     - theme: alt
-      text: Other apps
-      link: https://htetz.com
+      text: Help
+      link: /help
 
 features:
   - title: No Root Required
