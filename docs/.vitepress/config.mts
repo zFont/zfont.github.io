@@ -4,6 +4,9 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "zFont",
   description: "Android Emoji & Font Changer",
+  sitemap: {
+    hostname: 'https://zfont.app'
+  },
   head: [
     ['link', { rel: 'icon', href: 'icons/favicon.ico' }],
     [
@@ -66,6 +69,9 @@ export default defineConfig({
     ],
   ],
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     // https://vitepress.dev/reference/default-theme-config
     logo: '/icons/icon-192.png',
     nav: [
@@ -108,7 +114,7 @@ export default defineConfig({
     ],
     footer: {
       message: "&lt;Made with 💚 from Myanmar/&gt;",
-      copyright: 'Copyright © 2019-Present Khun Htetz Naing'
+      copyright: 'Copyright © 2019-Present <a href="https://facebook.com/iamHtetz">Khun Htetz Naing</a>'
     }
   }
 })

@@ -37,13 +37,13 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: download-report-${{ github.run_number }}
-        path: public/play-report.json
+        path: play-report.json
     
     - name: Commit and push report (optional)
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add public/play-report.json
+        git add play-report.json
         git diff --staged --quiet || git commit -m "Update download report - $(date)"
         git push
       env:

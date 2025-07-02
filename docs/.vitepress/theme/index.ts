@@ -4,7 +4,7 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 // import './custom.css'
 import './style.css'
-import AccountDeletionForm from './components/AccountDeletionForm.vue'
+import AccountDeletionForm from '../components/AccountDeletionForm.vue'
 
 export default {
   extends: DefaultTheme,
