@@ -29,7 +29,7 @@ jobs:
         SERVICE_ACCOUNT: ${{ secrets.SERVICE_ACCOUNT }}
         APP_PACKAGE_NAME: 'com.htetznaing.zfont2'
         START_DATE: '2020-12'
-        OUTPUT_PATH: 'public/play-report.json'
+        OUTPUT_PATH: 'play-report.json'
       run: |
         python scripts/play_counter.py
     
