@@ -42,9 +42,9 @@ jobs:
       # Validate build output exists
       - name: Validate build output
         run: |
-          if [ ! -d ".vitepress/dist" ]; then
+          if [ ! -d "docs/.vitepress/dist" ]; then
             echo "Error: Build output directory not found!"
-            echo "Expected: .vitepress/dist"
+            echo "Expected: docs/.vitepress/dist"
             exit 1
           fi
           echo "✅ Build output validated"
@@ -54,7 +54,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: vitepress-build
-          path: .vitepress/dist
+          path: docs/.vitepress/dist
           retention-days: 1
 
   deploy-cloudflare:
