@@ -7,7 +7,7 @@ Since Google Play Store doesn't accept zFont 3 with file and install package per
 ## Download
 
 - [Google Play](https://play.google.com/store/apps/details?id=com.htetznaing.zfile)
-- [Direct](hhttps://github.com/zFont/Host/releases/download/zFile/zFile_1.0.7.apk)
+- [Direct](https://github.com/zFont/Host/releases/download/zFile/zFile_1.0.7.apk)
 
 ::: warning
 Only download from official sources.
