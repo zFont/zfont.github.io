@@ -27,18 +27,20 @@ If you're familiar with root access, you can create and flash a systemless emoji
 
 No, root access is not required for basic font changing functionality. The app works on non-rooted Android devices for system fonts. However, it only works for supported phone brands and specific Android versions.
 ::: details Supported Devices
--   Samsung ✅
--   Xiaomi, POCO, Redmi ✅
--	Huawei, Honor ✅
--   LG, Velvet ✅
--   vivo, iQOO
-	- All versions up to Android 12 ✅
-	- After Android 13, compatibility may vary ℹ️
--   OPPO, realme, OnePlus
-	- If the option to switch to Myanmar region is available in settings ℹ️
--   Tecno, Infinix
+
+1. Samsung ✅
+2. Xiaomi, POCO, Redmi ✅
+3. Huawei, Honor ✅
+4. LG, Velvet ✅
+5. vivo, iQOO
+   - All versions up to Android 12 ✅
+   - After Android 13, compatibility may vary ℹ️
+6. OPPO, realme, OnePlus
+   - If the option to switch to Myanmar region is available in settings ℹ️
+7. Tecno, Infinix
 	- If Fonts option is available in settings ℹ️
--   ASUS (Compatibility may vary)
+8. ASUS (Compatibility may vary)
+
 :::
 
 ::: warning Note
