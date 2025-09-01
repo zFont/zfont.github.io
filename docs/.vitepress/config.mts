@@ -96,7 +96,7 @@ export default defineConfig({
                     {text: 'Terms and Conditions', link: '/terms'},
                     {text: 'Acknowledgements', link: '/acknowledgements'},
                 ]
-            }
+            },
         ],
 
         sidebar: [
@@ -114,6 +114,7 @@ export default defineConfig({
                     {text: 'Privacy Policy', link: '/privacy'},
                     {text: 'Terms and Conditions', link: '/terms'},
                     {text: 'Acknowledgements', link: '/acknowledgements'},
+                    {text: 'Changelog', link: '/changelog'},
                 ]
             }
         ],
