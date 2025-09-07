@@ -103,8 +103,15 @@ export default defineConfig({
             {
                 text: "Help",
                 items: [
+                    {
+                        text: 'Vivo', items: [
+                            {text: 'Downgrade iTheme', link: '/vivo/downgrade'},
+                            {text: 'File Manager & Documents', link: '/vivo/exploit'},
+                        ]
+                    },
                     {text: 'FAQ', link: '/help'},
                     {text: 'Contact & Support', link: '/contact'},
+
                 ]
             },
             {
