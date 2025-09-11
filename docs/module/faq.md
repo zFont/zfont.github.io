@@ -42,7 +42,7 @@ Mapping only `Roboto-Regular.ttf` will **not** change fonts system-wide. You mus
 
 For **non-English languages**, use the appropriate system font family:
 
-- **Myanmar**: Use `NotoSans-Myanmar` family
+- **Myanmar**: Use `NotoSansMyanmar` family
     - Replace `-Regular.ttf` with your Regular variant
     - Replace `-Bold.ttf` with your Bold variant
 - **Other languages**: Check your system's font directory for the correct font family name
@@ -59,8 +59,8 @@ MyCustomFont-BoldItalic.ttf → Roboto-BoldItalic.ttf
 
 **Myanmar Font Set:**
 ```
-MyMyanmarFont-Regular.ttf → NotoSans-Myanmar-Regular.ttf
-MyMyanmarFont-Bold.ttf → NotoSans-Myanmar-Bold.ttf
+MyFont-Regular.ttf → NotoSansMyanmar-Regular.ttf
+MyFont-Bold.ttf → NotoSansMyanmar-Bold.ttf
 ```
 
 ## Installation Process
