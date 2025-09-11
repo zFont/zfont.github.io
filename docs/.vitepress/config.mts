@@ -109,6 +109,7 @@ export default defineConfig({
                             {text: 'File Manager & Documents', link: '/vivo/exploit'},
                         ]
                     },
+                    {text: 'Systemless Module', link: '/module/faq'},
                     {text: 'FAQ', link: '/help'},
                     {text: 'Contact & Support', link: '/contact'},
 

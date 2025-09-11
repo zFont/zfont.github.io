@@ -55,14 +55,7 @@
   /* Slightly darker for secondary elements */
   --vp-c-brand-3: #00803D;
   /* Darker shade for active elements */
-  --vp-c-brand-soft: #B3E6D1;
-  /* Lightest shade for background elements */
-  --vp-c-brand-hover: #00803D;
-  /* Hover state */
-  --vp-c-brand-focus: #007033;
-  /* Focus state for accessibility */
-  --vp-c-brand-muted: #66D19F;
-  /* Muted shade for less emphasized items */
+  --vp-c-brand-soft: rgba(0, 160, 82, 0.14);
 
   --vp-c-tip-1: var(--vp-c-brand-1);
   --vp-c-tip-2: var(--vp-c-brand-2);

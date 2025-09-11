@@ -11,7 +11,7 @@ Frequently Asked Questions about font changing, compatibility, and troubleshooti
 
 Yes, you can import any fonts in the **Downloads** tab.
 
-::: info
+::: tip
 This app can find fonts in Zip, Apk, and Theme files.
 :::
 
