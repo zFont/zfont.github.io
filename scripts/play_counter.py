@@ -32,6 +32,21 @@ def generate_month_year_pairs(start_date_str):
     return pairs
 
 
+def format_number_short(num):
+    suffixes = ['', 'K', 'M', 'B', 'T']
+    suffix = suffixes[0]
+    for suffix in suffixes:
+        if num < 1000:
+            break
+        if suffix != 'T':  # Don't divide if we're at the last suffix
+            num /= 1000
+
+    # Format: no decimals for integers, clean decimals otherwise
+    if num == int(num):
+        return f"{int(num)}{suffix}"
+    return f"{num:.1f}{suffix}".rstrip('0').rstrip('.')
+
+
 def parse_csv_line(line):
     """Parse CSV line to extract download count."""
     try:
@@ -127,6 +142,7 @@ def main():
             "package_name": app_package_name,
             "total_downloads": total_downloads,
             "total_downloads_formatted": f"{total_downloads:,}",
+            "total_downloads_summary": format_number_short(total_downloads),
             "report_generated_at": datetime.now().isoformat(),
             "data_period": {
                 "start": start_date,
