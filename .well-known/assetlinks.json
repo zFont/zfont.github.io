@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.htetznaing.zfont2",
+      "sha256_cert_fingerprints": [
+        "01:BC:57:16:7A:13:1B:7F:E8:89:07:5D:99:3D:1B:77:79:7D:3C:99:38:2B:16:7A:11:70:AB:05:67:8F:A0:43"
+      ]
+    }
+  }
+]
