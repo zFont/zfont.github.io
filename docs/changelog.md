@@ -1,3 +1,23 @@
+**18/10/2025 [3.9.2]**
+- Added support for One UI 8 (Android 16)
+- Watch the setup tutorial: https://youtu.be/UlWJSD3qDt8
+
+**16/10/2025 [3.9.1]**
+- Fixed crashes on some devices
+- Fixed crash on Xiaomi when picking a file
+
+**15/10/2025 [3.9.0]**
+- Redesigned with Material 3 Expressive
+- Added Xiaomi HyperOS 3 support
+- Fixed LG, Tecno & Infinix compatibility
+- Added 5 file handling methods for Android 11+:
+    - Legacy File
+    - SAF
+    - Shizuku
+    - zFile
+    - Root
+- Bug fixes and improvements
+
 **14/05/2025 [3.8.6]**
 - Fixed Shizuku not working
 
@@ -22,8 +42,8 @@
 
 **11/07/2024 [3.7.2]**
 - Magisk module
-  - Update installation script
-  - Added document provider [Picker]
+    - Update installation script
+    - Added document provider [Picker]
 
 **11/06/2024 [3.7.1]**
 - Added Arabic 🌐 (t.me/xFlaem)
@@ -165,10 +185,10 @@
 - Added Document Provider (Beta)
 - So you can use fonts in zFont from other apps
 - Fixed bugs
-  
+
 **12/04/2022 [3.3.9a]**
 - Fix minor bugs
-  
+
 **05/04/2022 [3.3.9]**
 - Fixed Vivo China ROM
 
@@ -196,7 +216,7 @@
 - Supported Vivo Android 12 [Beta]
 - (Tested on v20, v21, v21e, Y53s, iQOO 7 ✅)
 - Fixed 404 error
-  
+
 **04/03/2022 [3.3.2]**
 - Fixed ads overlap content
 - Improve support dai characters [OPPO]
@@ -306,9 +326,9 @@
 
 **14/07/2020 [2.4.4]**
 - Now Support MIUI 10, 11, 12 🤩
-No more change it back to default 😎
-Because we replace custom font with an official font.
-(Requires Mi Account)
+  No more change it back to default 😎
+  Because we replace custom font with an official font.
+  (Requires Mi Account)
 
 - Added Remove Ads Option!
 - Fix Not Working on Android 4.4
@@ -436,12 +456,12 @@ Because we replace custom font with an official font.
 
 **12/04/2019 [1.5]**
 - Fix Cannot install (zFont) Apks on
-Samsung,Oppo,Realme!
+  Samsung,Oppo,Realme!
 
 **11/04/2019 [1.4]**
 - Fix Not Working on Huawei
 - Fix Not Working on Android 9.0+
-(Oppo & Samsung)
+  (Oppo & Samsung)
 - Fix More Bugs
 
 **09/03/2019[1.3]**

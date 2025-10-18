@@ -95,6 +95,7 @@ export default defineConfig({
                     {text: 'Privacy Policy', link: '/privacy'},
                     {text: 'Terms and Conditions', link: '/terms'},
                     {text: 'Acknowledgements', link: '/acknowledgements'},
+                    {text: 'Changelog', link: '/changelog'},
                 ]
             },
         ],
@@ -104,7 +105,7 @@ export default defineConfig({
                 text: "Help",
                 items: [
                     {
-                        text: 'Vivo', items: [
+                        text: 'vivo and iQOO', items: [
                             {text: 'Downgrade iTheme', link: '/vivo/downgrade'},
                             {text: 'File Manager & Documents', link: '/vivo/exploit'},
                         ]
