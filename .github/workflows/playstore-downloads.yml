@@ -21,7 +21,7 @@ jobs:
     
     - name: Install dependencies
       run: |
-        pip install google-cloud-storage google-auth
+        pip install google-cloud-storage google-auth packaging
     
     - name: Run download counter
       env:
