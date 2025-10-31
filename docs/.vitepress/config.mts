@@ -89,6 +89,16 @@ export default defineConfig({
         nav: [
             {text: 'Home', link: '/'},
             {
+                text: 'Help',
+                items: [
+                    {text: 'File Handler', link: '/filehandler'},
+                    {text: 'vivo and iQOO', link: '/vivo'},
+                    {text: 'Systemless Module', link: '/module/faq'},
+                    {text: 'FAQ', link: '/help'},
+                    {text: 'Contact & Support', link: '/contact'},
+                ]
+            },
+            {
                 text: 'About',
                 items: [
                     {text: 'zFile', link: '/zfile'},
@@ -105,7 +115,17 @@ export default defineConfig({
                 text: "Help",
                 items: [
                     {
-                        text: 'vivo and iQOO', items: [
+                        text: 'File Handler', link: '/filehandler',
+                        items: [
+                            {text: 'Legacy File', link: '/filehandler/legacy'},
+                            {text: 'Storage Access Framework', link: '/filehandler/saf'},
+                            {text: 'Shizuku', link: '/filehandler/shizuku'},
+                            {text: 'zFile', link: '/filehandler/zfile'},
+                        ]
+                    },
+                    {
+                        text: 'vivo and iQOO', link: '/vivo',
+                        items: [
                             {text: 'Downgrade iTheme', link: '/vivo/downgrade'},
                             {text: 'File Manager & Documents', link: '/vivo/exploit'},
                         ]
@@ -128,15 +148,18 @@ export default defineConfig({
             }
         ],
 
-        socialLinks: [
-            {icon: 'googleplay', link: 'https://play.google.com/store/apps/details?id=com.htetznaing.zfont2'},
-            {icon: 'facebook', link: 'https://www.facebook.com/zFontApp'},
-            {icon: 'telegram', link: 'https://t.me/zFontApp'},
-            {icon: 'github', link: 'https://github.com/zFont'},
-        ],
-        footer: {
-            message: "&lt;Made with 💚 from Myanmar/&gt;",
-            copyright: 'Copyright © 2019-Present <a href="https://facebook.com/iamHtetz">Khun Htetz Naing</a>'
-        }
+        socialLinks:
+            [
+                {icon: 'googleplay', link: 'https://play.google.com/store/apps/details?id=com.htetznaing.zfont2'},
+                {icon: 'facebook', link: 'https://www.facebook.com/zFontApp'},
+                {icon: 'telegram', link: 'https://t.me/zFontApp'},
+                {icon: 'github', link: 'https://github.com/zFont'},
+            ],
+        footer:
+            {
+                message: "&lt;Made with 💚 from Myanmar/&gt;",
+                copyright:
+                    'Copyright © 2019-Present <a href="https://facebook.com/iamHtetz">Khun Htetz Naing</a>'
+            }
     }
 })
