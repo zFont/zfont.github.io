@@ -121,6 +121,7 @@ export default defineConfig({
                             {text: 'Storage Access Framework', link: '/filehandler/saf'},
                             {text: 'Shizuku', link: '/filehandler/shizuku'},
                             {text: 'zFile', link: '/filehandler/zfile'},
+                            {text: 'Root', link: '/filehandler/root'},
                         ]
                     },
                     {

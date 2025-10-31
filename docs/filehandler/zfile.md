@@ -1,4 +1,4 @@
-### zFile <Badge type="warning" text="Not Recommended" />
+# zFile <Badge type="warning" text="Not Recommended" />
 
 ::: warning Limited Compatibility
 zFile works on **some devices only** and may stop working after system updates. We strongly recommend using **[Shizuku](shizuku.html)** instead for reliable file access.

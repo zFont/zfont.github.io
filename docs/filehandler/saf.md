@@ -1,4 +1,4 @@
-### Storage Access Framework (SAF) <Badge type="warning" text="Android 11-12" />
+# Storage Access Framework (SAF) <Badge type="warning" text="Android 11-12" />
 
 ::: warning Limited Compatibility
 SAF works best on **Android 11-12**. Limited or no support on Android 13+.

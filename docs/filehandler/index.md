@@ -8,13 +8,13 @@ To apply custom fonts on these devices, zFont 3 needs permission to access the `
 
 zFont 3 supports different methods to access restricted directories:
 
-| Method                              | Difficulty | Compatibility    | Recommended       |
-|-------------------------------------|------------|------------------|-------------------|
-| **[Legacy](legacy)**                | Easy       | Android ≤ 10     | Limited           |
-| **[Storage Access Framework](saf)** | Easy       | Android 11-12    | Limited           |
-| **[Shizuku](shizuku)**              | Medium     | All devices      | ✅ **Best Choice** |
-| **[zFile](zfile)**                  | Easy       | Varies by device | Unreliable        |
-| **[Root](root)**                    | Hard       | All devices      | Advanced users    |
+| Method                                 | Difficulty | Compatibility    | Recommended       |
+|----------------------------------------|------------|------------------|-------------------|
+| **[Legacy](legacy.md)**                | Easy       | Android ≤ 10     | Limited           |
+| **[Storage Access Framework](saf.md)** | Easy       | Android 11-12    | Limited           |
+| **[Shizuku](shizuku.md)**              | Medium     | All devices      | ✅ **Best Choice** |
+| **[zFile](zfile.md)**                  | Easy       | Varies by device | Unreliable        |
+| **[Root](root.md)**                    | Hard       | All devices      | Advanced users    |
 
 ## Quick Recommendations
 

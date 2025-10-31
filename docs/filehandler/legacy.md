@@ -1,4 +1,4 @@
-### Legacy File <Badge type="warning" text="Android ≤ 10" />
+# Legacy File <Badge type="warning" text="Android ≤ 10" />
 
 ::: tip No Setup Required
 If you're on Android 10 or below, file access is unrestricted. No special setup needed!
