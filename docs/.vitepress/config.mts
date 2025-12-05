@@ -22,6 +22,14 @@ export default defineConfig({
   gtag('config', 'G-2C8Y42GDLS');`
         ],
         [
+            'script',
+            {
+                async: '',
+                src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8938536730349592',
+                'crossorigin': 'anonymous'
+            }
+        ],
+        [
             'meta',
             {
                 name: 'theme-color',
