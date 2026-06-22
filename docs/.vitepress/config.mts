@@ -110,6 +110,7 @@ export default defineConfig({
                 text: 'About',
                 items: [
                     {text: 'zFile', link: '/zfile'},
+                    {text: 'Zyper', link: '/zyper'},
                     {text: 'Privacy Policy', link: '/privacy'},
                     {text: 'Terms and Conditions', link: '/terms'},
                     {text: 'Acknowledgements', link: '/acknowledgements'},
@@ -149,6 +150,7 @@ export default defineConfig({
                 text: 'About',
                 items: [
                     {text: 'zFile', link: '/zfile'},
+                    {text: 'Zyper', link: '/zyper'},
                     {text: 'Privacy Policy', link: '/privacy'},
                     {text: 'Terms and Conditions', link: '/terms'},
                     {text: 'Acknowledgements', link: '/acknowledgements'},
