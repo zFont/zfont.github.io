@@ -6,17 +6,19 @@ Shizuku is the most reliable method and works on after Android 12+ devices. This
 
 ### Requirements
 
-* Shizuku app—[Play Store](https://play.google.com/store/apps/details?id=moe.shizuku.privileged.api) or [GitHub](https://github.com/RikkaApps/Shizuku/releases)
+* Shizuku app—[Play Store](https://play.google.com/store/apps/details?id=moe.shizuku.privileged.api)
+  or [GitHub](https://github.com/RikkaApps/Shizuku/releases)
 * [Developer Options enabled on your device.](#enable-developer-options) <Badge type="warning" text="Required" />
 * One of these:
-  * [Wi-Fi (Wireless Debugging)](#start-by-using-wi-fi)
-  * [Computer + USB cable](#start-using-computer-adb)
+    * [Wi-Fi (Wireless Debugging)](#start-by-using-wi-fi)
+    * [Computer + USB cable](#start-using-computer-adb)
 
 ## Enable Developer Options <Badge type="warning" text="Required" />
 
 Follow the steps for your device:
 
 ::: details Huawei, Honor & Most Android devices
+
 1. Open **Settings**
 2. Go to **About phone**
 3. Tap **Build number** 7 times
@@ -26,6 +28,7 @@ Follow the steps for your device:
 :::
 
 ::: details Xiaomi, Redmi, POCO (MIUI)
+
 1. Open **Settings**
 2. Go to **My device**
 3. Tap **MIUI Version** 7 times
@@ -35,6 +38,7 @@ Follow the steps for your device:
 :::
 
 ::: details Xiaomi, Redmi, POCO (HyperOS)
+
 1. Open **Settings**
 2. Go to **My device**
 3. Tap **OS Version** 7 times
@@ -44,6 +48,7 @@ Follow the steps for your device:
 :::
 
 ::: details TECNO, Infinix
+
 1. Open **Settings**
 2. Go to **My phone**
 3. Tap **Build number** 7 times
@@ -53,12 +58,16 @@ Follow the steps for your device:
 :::
 
 ## Start by using Wi-Fi <Badge type="tip" text="Wireless Debugging" />
+
 ::: warning Requirements
+
 - Android 11 or newer
 - Wi-Fi connection required (can use mobile hotspot from another device)
-:::
+  :::
+
 ### Step 1: Allow Notification permission
-1. Open **Shizuku** app 
+
+1. Open **Shizuku** app
 2. Allow all necessary permissions when asked
 3. Tap on **Pairing** button
 4. Enable **Show notifications** toggle
@@ -66,6 +75,7 @@ Follow the steps for your device:
 ![Allow Notification permission](/images/filehandler/shizuku/shizuku-noti.jpg)
 
 ### Step 2: Enable Wireless Debugging
+
 1. Tap on **Developer options**
 2. Scroll down and enable **USB debugging**
 3. Find **Wireless debugging** and enable it.
@@ -73,7 +83,9 @@ Follow the steps for your device:
 ![Enable Wireless debugging](/images/filehandler/shizuku/shizuku-debugging.jpg)
 
 ### Step 3: Pair device with pairing code
+
 A notification will appear with a pairing prompt.
+
 1. Enter the pairing code shown in the notification
 2. Tap Pair
 
@@ -81,6 +93,7 @@ A notification will appear with a pairing prompt.
 
 ::: details Didn't see the notification Popup?
 If the notification popup doesn't appear:
+
 1. Swipe down the notification panel
 2. Look for Shizuku notification
 3. Tap on **Enter pairing code**
@@ -89,6 +102,7 @@ If the notification popup doesn't appear:
 :::
 
 ### Step 4: Start Shizuku
+
 1. Go back to the **Shizuku** app
 2. Tap on **Start** button
 
@@ -101,12 +115,14 @@ Now you can use Shizuku in **zFont 3** → **Settings** → **File Handler**.
 
 ## Start Using Computer (ADB)
 
-For detailed instructions on using ADB with a computer, refer to the [Official Shizuku Guide](https://shizuku.rikka.app/guide/setup/#start-by-connecting-to-a-computer).
+For detailed instructions on using ADB with a computer, refer to
+the [Official Shizuku Guide](https://shizuku.rikka.app/guide/setup/#start-by-connecting-to-a-computer).
 
 ::: tip Use Another Android Phone as Computer
 You can use another Android phone instead of a computer!
 
 Install one of these apps on the second phone:
+
 - [Bugjaeger](https://play.google.com/store/apps/details?id=eu.sisik.hackendebug)
 - [ADB OTG](https://play.google.com/store/apps/details?id=com.htetznaing.adbotg)
 
@@ -114,22 +130,38 @@ Connect both phones with an OTG cable and follow the ADB instructions.
 :::
 
 ## Using Shizuku with zFont 3
+
 Once Shizuku is running:
+
 1. Open **zFont 3**
 2. Go to **Settings** → **File Handler**
 3. Select **Shizuku**
 4. Grant permission when prompted
 5. Done! You can now apply fonts
-6. 
+6.
+
 ## Troubleshooting & FAQ
 
 ### Shizuku won't start after successful pairing
 
 **Solution:**
+
 1. Go to **Settings** → **Developer options**
 2. Toggle **Wireless debugging** off, then on again
 3. Return to Shizuku app and tap **Start**
 
+### Service Start Failed
+
+1. Open **Shizuku** > **Application management**.
+2. Turn off the toggle next to **zFont**.
+3. Reopen the zFont app and try again.
+   ![Fix Service Start Failed](/images/filehandler/shizuku/troubleshoot-turn-off.jpeg)
+
+::: tip
+If this still doesn't fix the issue, please try using the Shizuku fork by [thedjchi](https://github.com/thedjchi/Shizuku/releases).
+:::
+
 ### Other issues?
 
-For more troubleshooting and frequently asked questions, check the [Official Shizuku FAQ](https://shizuku.rikka.app/guide/setup/#faq).
+For more troubleshooting and frequently asked questions, check
+the [Official Shizuku FAQ](https://shizuku.rikka.app/guide/setup/#faq).
