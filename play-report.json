@@ -3,16 +3,16 @@
   "total_downloads": 174069459,
   "total_downloads_formatted": "174,069,459",
   "total_downloads_summary": "174.1M",
-  "report_generated_at": "2026-07-31T11:24:56.836762",
+  "report_generated_at": "2026-08-01T10:29:21.474761",
   "data_period": {
     "start": "2020-12",
-    "end": "2026-07"
+    "end": "2026-08"
   },
   "summary": {
     "total_years": 7,
-    "total_months": 68,
-    "average_downloads_per_month": 2559845,
-    "average_downloads_per_month_formatted": "2,559,845",
+    "total_months": 69,
+    "average_downloads_per_month": 2522746,
+    "average_downloads_per_month_formatted": "2,522,746",
     "peak_month": {
       "month": "2021-01",
       "downloads": 3806572,
@@ -105,6 +105,7 @@
     "2026-04": 1922890,
     "2026-05": 1945842,
     "2026-06": 1866235,
-    "2026-07": 1361891
+    "2026-07": 1361891,
+    "2026-08": 0
   }
 }
