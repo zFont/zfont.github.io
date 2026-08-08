@@ -1,9 +1,9 @@
 {
   "package_name": "com.htetznaing.zfont2",
-  "total_downloads": 174069459,
-  "total_downloads_formatted": "174,069,459",
-  "total_downloads_summary": "174.1M",
-  "report_generated_at": "2026-08-07T09:54:40.564628",
+  "total_downloads": 174543142,
+  "total_downloads_formatted": "174,543,142",
+  "total_downloads_summary": "174.5M",
+  "report_generated_at": "2026-08-08T09:30:38.910366",
   "data_period": {
     "start": "2020-12",
     "end": "2026-08"
@@ -11,8 +11,8 @@
   "summary": {
     "total_years": 7,
     "total_months": 69,
-    "average_downloads_per_month": 2522746,
-    "average_downloads_per_month_formatted": "2,522,746",
+    "average_downloads_per_month": 2529611,
+    "average_downloads_per_month_formatted": "2,529,611",
     "peak_month": {
       "month": "2021-01",
       "downloads": 3806572,
@@ -25,7 +25,7 @@
       "2023": 30766755,
       "2024": 30693379,
       "2025": 28322736,
-      "2026": 13316724
+      "2026": 13790407
     },
     "yearly_totals_formatted": {
       "2020": "585,877",
@@ -34,7 +34,7 @@
       "2023": "30,766,755",
       "2024": "30,693,379",
       "2025": "28,322,736",
-      "2026": "13,316,724"
+      "2026": "13,790,407"
     }
   },
   "monthly_data": {
@@ -105,7 +105,7 @@
     "2026-04": 1922890,
     "2026-05": 1945842,
     "2026-06": 1866235,
-    "2026-07": 1361891,
+    "2026-07": 1835574,
     "2026-08": 0
   }
 }
