@@ -42,10 +42,10 @@ features:
 You can download zFont 3 through the official channels below.
 > We recommend using the Direct APK to ensure you get the latest features and updates
 
-| Direct APK Sideload <Badge type="tip">Recommended</Badge> | Google Play Store |
-| :--- | :--- |
-| [![Download Official APK](https://img.shields.io/badge/APK-v3.9.2.3-00A052?style=flat&logo=github)](https://github.com/zFont/Host/releases/download/zFont/zfont_v3.9.2.3-sideload-release.apk) | [![Get it On Play Store](https://img.shields.io/badge/APP-v3.9.2.2-blue?style=flat&logo=googleplay)](https://play.google.com/store/apps/details?id=com.htetznaing.zfont2) |
-| *Latest updates and features* | *Stable release via Google Play* |
+| Direct APK Sideload <Badge type="tip">Recommended</Badge>                                                                                                                   | Google Play Store |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------| :--- |
+| [![Download Official APK](https://img.shields.io/badge/APK-v3.9.2.4-00A052?style=flat&logo=github)](https://github.com/zFont/Host/releases/download/zFont/zfont_latest.apk) | [![Get it On Play Store](https://img.shields.io/badge/APP-v3.9.2.2-blue?style=flat&logo=googleplay)](https://play.google.com/store/apps/details?id=com.htetznaing.zfont2) |
+| *Latest updates and features*                                                                                                                                               | *Stable release via Google Play* |
 
 ::: warning Important Security Notice
 Always download zFont 3 exclusively from this official GitHub repository or the Google Play Store. Avoid third-party APK mirrors to protect your device from malware or modified versions.
