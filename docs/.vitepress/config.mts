@@ -110,7 +110,8 @@ export default defineConfig({
                 text: 'About',
                 items: [
                     {text: 'zFile', link: '/zfile'},
-                    {text: 'Zyper', link: '/zyper'},
+                    {text: 'Zyper (MIUI/HyperOS)', link: '/zyper'},
+                    {text: 'Zalaxy (Samsung)', link: '/zalaxy'},
                     {text: 'Privacy Policy', link: '/privacy'},
                     {text: 'Terms and Conditions', link: '/terms'},
                     {text: 'Acknowledgements', link: '/acknowledgements'},
@@ -150,7 +151,8 @@ export default defineConfig({
                 text: 'About',
                 items: [
                     {text: 'zFile', link: '/zfile'},
-                    {text: 'Zyper', link: '/zyper'},
+                    {text: 'Zyper (MIUI/HyperOS)', link: '/zyper'},
+                    {text: 'Zalaxy (Samsung)', link: '/zalaxy'},
                     {text: 'Privacy Policy', link: '/privacy'},
                     {text: 'Terms and Conditions', link: '/terms'},
                     {text: 'Acknowledgements', link: '/acknowledgements'},
